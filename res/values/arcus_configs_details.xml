@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--CONFIG NAME: Actual config name to be displayed in arcus-->
+    <string name="prozt_pink_name">Pink Blend</string>
+
+    <!--CONFIG VERSION: These values will be used by Arcus to track configs updates-->
+    <string name="prozt_pink_version">1.0</string>
+
+    <!--CONFIG SCREENS: MUST be named in format: <config-name> + "_screen1"....."_screen2" and on-->
+    <!--eg. Config named 'prozt_pink' will have screens named as 'config_pink_screen_1',  'config_pink_screen_2',  and on in jpg/png format-->
+    <integer name="prozt_pink_total_screens">3</integer>
+
+
+    <!--Follow above formats for other configs as well. Be sure to check the configs in Arcus after each update to you theme in Play Store-->
+    <!--NOTE: You can place each configs details in separate files. eg. Here, I've moved prozt_red config's details in a separate file 'prozt_red.xml'-->
+
+    <string name="prozt_amber_name">Amber Love</string>
+    <string name="prozt_amber_version">1.0</string>
+    <integer name="prozt_amber_total_screens">1</integer>
+
+    <string name="prozt_orange_name">Natural Green</string>
+    <string name="prozt_orange_version">1.0</string>
+    <integer name="prozt_orange_total_screens">1</integer>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="prozt_red_name">Bloody Mary</string>
+    <string name="prozt_red_version">1.0</string>
+    <integer name="prozt_red_total_screens">1</integer>
+
+</resources>
