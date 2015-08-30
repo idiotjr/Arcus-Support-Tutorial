@@ -9,6 +9,6 @@ The way arcus functions currently is quiet simple. It updates the assets/ folder
 
 For eg. if a themer wants to provide his theme in 5 different color variations. The best way to do it would be to redirect the main theme colors of each overlay from 'common/colors.xml'. And since only 'common/colors.xml' file changes the colors for each color variant, you can prepare a zip of the assets folder with just the changed file(s). 
 
-IMPORTANT: The zip file must contain the entire path of the file from its location in assets to the assets folder itself. You will find a method to do this quickly below.
+<b>IMPORTANT</b>: The zip file must contain the entire path of the file from its location in assets to the assets folder itself. You will find a method to do this quickly below.
 
 # Steps by step instructions:
