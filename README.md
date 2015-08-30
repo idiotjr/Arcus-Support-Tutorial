@@ -62,7 +62,7 @@ Sample res/ folder is uploaded to this project for your reference. Study the bel
 
 ----------------------------------------------------------------------------
 **3.** **Place config screenshots**
-> **Dimensions**: Standard screenshot dimensions from your devices or test your own.
+> **Dimensions**: Standard screenshot dimensions from your devices or test your own dimensions.
 > 
 > **File size**: Optimize the screenshots (if required). Use TinyPNG (Recommended) or PNG Gauntlet.
 > 
@@ -76,21 +76,21 @@ Sample res/ folder is uploaded to this project for your reference. Study the bel
 Two xml files are to be maintained:
 
 >  - arcus_configs_array.xml
-> 	 - This file contains an arrray list of the configs' names i.e. zip names without the '.zip' suffix
+> 	 - This file contains an array list of the configs' names i.e. zip names without the '.zip' suffix
 >  - arcus_configs_details.xml
 > 	 - This file contains details of each config such as actual name to be displayed, version, no. of screenshots
 
-Have a look at these files. Instructions on how to use them is within the files.
+Have a look at these files from the sample res/ folder of this project. Instructions on how to use them is within the files.
 
 Step 3: Add a meta-data tag in the theme's AndroidManifest
 -----------------------------------------------------------------
 
 This lets Arcus know that the theme supports it and has custom assets zips ('configs' from now on).
 
-Include the tag:  
+Include the tag:
 `<meta-data android:name="arcus.support" android:value="true"/>`
 
-as shown below:
+inside the application node of the manifest as shown below:
 
     <application
         android:hasCode="false"
