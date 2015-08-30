@@ -51,8 +51,7 @@ Sample res/ folder is uploaded to this project for your reference. Study the bel
 **2.** **Place config preview image**
 
 ![alt tag](https://dl.dropboxusercontent.com/u/35007332/Arcus/Github/preview_image.png "Screenshot of a preview image")
-> **Location**: res/drawable-nodpi/
-> 
+>
 > **Dimensions**: Themer's choice (Recommended: 1024w x 500h px)
 > 
 > **File size**: Try to limit its size to below 150 kb. Use TinyPNG (Recommended) or PNG Gauntlet.
