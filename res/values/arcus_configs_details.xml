@@ -7,12 +7,12 @@
     <!--CONFIG VERSION: These values will be used by Arcus to track configs updates-->
     <string name="prozt_pink_version">1.0</string>
 
-    <!--CONFIG SCREENS: MUST be named in format: <config-name> + "_screen1"....."_screen2" and on-->
-    <!--eg. Config named 'prozt_pink' will have screens named as 'config_pink_screen_1',  'config_pink_screen_2',  and on in jpg/png format-->
+    <!--CONFIG SCREENS: No. of screens for this config...be sure to update this no. when you add or remove a screen-->
+    <!--Also follow the naming convenstion <config-name>_screen1, <config-name>_screen2 and so on-->
     <integer name="prozt_pink_total_screens">3</integer>
 
 
-    <!--Follow above formats for other configs as well. Be sure to check the configs in Arcus after each update to you theme in Play Store-->
+    <!--Follow above formats for other configs as well. Be sure to build and verify the configs in Arcus after each update to your theme in Play Store-->
     <!--NOTE: You can place each configs details in separate files. eg. Here, I've moved prozt_red config's details in a separate file 'prozt_red.xml'-->
 
     <string name="prozt_amber_name">Amber Love</string>
