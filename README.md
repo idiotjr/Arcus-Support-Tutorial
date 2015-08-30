@@ -85,7 +85,7 @@ Have a look at these files from the sample res/ folder of this project. Instruct
 Step 3: Add a meta-data tag in the theme's AndroidManifest
 -----------------------------------------------------------------
 
-This lets Arcus detect the theme as an arucs-supported theme.
+This lets Arcus detect the theme as an **arcus-supported** theme.
 
 Include the tag:
 `<meta-data android:name="arcus.support" android:value="true"/>`
