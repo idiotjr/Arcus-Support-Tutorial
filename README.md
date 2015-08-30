@@ -29,9 +29,9 @@ This is how I would do it with 7-zip file manager:
 
 2. Copy the assets folder of the theme project to the root directory in you hard drive eg. **C:**   or   **D:**
 
-2. Navigate to the changed file (In this case assets/overlays/common/res/values/colors.xml)
+2. Navigate to the changed file (assets/overlays/common/res/values/colors.xml) inside the newly copied assets folder.
 
-3. Right click the file and select 7-Zip>Add to archive
+3. Right click the changed file (colors.xml) and select 7-Zip>Add to archive
 ![alt tag](https://dl.dropboxusercontent.com/u/35007332/Arcus/Github/1.png)
 
 4. In the subsequent dialog prepare the zip with the below parameters. 
