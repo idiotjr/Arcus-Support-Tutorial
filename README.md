@@ -9,7 +9,7 @@ Arcus is an app that allows users to use custom configurations (referred as conf
 How it works
 ---------------
 
-The way arcus functions currently is quiet simple. It extracts the assets of a theme and replaces it with alternative assets/ provided by the themer. A new theme apk is prepared and the old base theme remains unaffected. Hence, it may be used to update just the colors of an overlay, revamp an overlay or the entire theme itself. YOU name it.
+The way arcus functions currently is quiet simple. It extracts the assets of a theme and replaces it with alternative assets/ provided by the themer. Hence, it may be used to update just the colors of an overlay, revamp an overlay or the entire theme itself. YOU name it. (Note that a new theme apk is prepared with the updated assets and the old base theme remains unaffected).
 
 For eg. if a themer wants to provide his theme in 5 different color variations. The best way to do it would be to redirect the main theme colors of each overlay from 'common/res/values/colors.xml'. And since only a single file changes the colors for each color variant, you can prepare a zip of the assets folder with just the changed file(s). 
 
