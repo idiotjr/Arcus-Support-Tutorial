@@ -4,7 +4,7 @@ This repo is to help theme engine themers to add support for Arcus in their them
 Introduction
 ------------
 
-Arcus is an app that allows users to use custom configurations (referred as configs from here) for any theme engine supported theme. We have seen many themes that bundle multiple apks in a single theme/apk to distribute several color variants of the theme. Arcus is specifically developed for this purpose, however, not limited to it (Read below to learn more).
+Arcus is an app that allows themers to provide custom configurations (referred as configs from here) for their theme engine supported theme. We have seen many themes that bundle multiple apks in a single theme/apk to distribute several color variants of the theme. Arcus is specifically developed for this purpose, however, not limited to it (Read below to learn more).
 
 How it works
 ---------------
