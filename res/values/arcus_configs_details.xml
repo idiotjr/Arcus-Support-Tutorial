@@ -5,7 +5,7 @@
     <!--String name format: [config_name]_name-->
     <string name="prozt_pink_name">Pink Blend</string>
 
-    <!--CONFIG NAME: Actual config name to be displayed in arcus-->
+    <!--CONFIG VERSION: These values will be used by Arcus to track configs updates-->
     <!--String name format: [config_name]_version-->
     <string name="prozt_pink_version">1.0</string>
 
