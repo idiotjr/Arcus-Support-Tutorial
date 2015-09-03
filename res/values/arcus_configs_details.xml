@@ -5,16 +5,8 @@
     <!--String name format: [config_name]_name-->
     <string name="prozt_pink_name">Pink Blend</string>
 
-    <!--CONFIG VERSION: These values will be used by Arcus to track configs updates-->
-    <!--String name format: [config_name]_version-->
-    <string name="prozt_pink_version">1.0</string>
-
-    <!--Follow above formats for other configs as well-->
+    <!--Follow above format for other configs as well-->
     <!--NOTE: You can place each configs details in separate files. eg. Here, I've moved prozt_red config's details in a separate file 'prozt_red.xml'-->
     <string name="prozt_amber_name">Amber Love</string>
-    <string name="prozt_amber_version">1.0</string>
-
     <string name="prozt_orange_name">Natural Green</string>
-    <string name="prozt_orange_version">1.0</string>
-
 </resources>
