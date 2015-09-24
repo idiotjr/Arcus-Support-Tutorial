@@ -16,4 +16,4 @@ For eg. if a themer wants to provide his theme in 5 different color variations. 
 How to add arcus support to your theme
 ---------------
 Refer the [Wiki](https://github.com/dchris87/Arcus-Support-Tutorial/wiki) for a step by step guide.
-Download APK: [ARCUS](http://tinyurl.com/arcus-download)
+Download Arcus from [Google Play Store](https://play.google.com/store/apps/details?id=pixkart.arcus).
