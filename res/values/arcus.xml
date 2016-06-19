@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--This helps Arcus understand which features of Arcus is the theme compatible with-->
+    <integer name="arcusCompatVersion">2</integer>
+
+    <!--Optional: Used in "More from [Developer]" option (Opens the play store list of all apps/themes by the developer)-->
+    <string name="developer_name">Pixkart</string>
+
+    <!--Optional: Specify a tab mod for your configs (See wiki for more details)-->
+    <!--Values: manual (recommended), smart, auto or none-->
+    <string name="tabbed_configs_mode">manual</string>
+
+    <!--Below is an example of manual tabbed mode, you can add as many tabs as you wish-->
+    <!--See wiki for other tab modes-->
+    <!--Eg. String "arcus_tab_1_name" is the name of the tab that will be displayed in Arcus-->
+    <!--Eg. String array "arcus_tab_1" enlists the names of your zip files without ".zip", these are your [config_name]s-->
+
+    <string name="arcus_tab_1_name">Light</string>
+    <string-array name="arcus_tab_1">
+        <item>prozt_amber</item>
+        <item>prozt_orange</item>
+    </string-array>
+
+    <string name="arcus_tab_2_name">Dark</string>
+    <string-array name="arcus_tab_2">
+        <item>prozt_pink</item>
+        <item>prozt_red</item>
+    </string-array>
+
+    <!--arcusCompatVersion 2 has the following format for listing your config zips-->
+    <!--item tag must include [config_zip_name]:[config_display_name]-->
+    <!--Note: Arcus will display your configs in the same order as this array-->
+    <string-array name="config_zips_list_compat2"> <!--DO NOT MODIFY THIS LINE!!! The array name is the identifier for Arcus to register the configs-->
+        <item>prozt_amber:Amber Love</item>
+        <item>prozt_orange:Orange Life</item>
+        <item>prozt_pink:Pink Blend</item>
+        <item>prozt_red:Red Vamp</item>
+    </string-array>
+
+<!--____________________________________________________________________________________________________________________-->
+    <!--WARNING: Add/Maintain below sections to maintain compatibility with pre-2.0 versions of Arcus-->
+    <!--This is to prevent force closes when the theme has been updated to support latest version of Arcus but user hasn't updated Arcus yet-->
+
+    <!--Zip IDs: Enlist the names of your zip files without ".zip", these are your [config_name]s-->
+    <!--Note: Arcus will display your configs in the same order as this array-->
+    <string-array name="config_zips_list">  <!--DO NOT MODIFY THIS LINE!!! The array name is the identifier for Arcus to register the configs-->
+        <item>prozt_pink</item>
+        <item>prozt_amber</item>
+        <item>prozt_orange</item>
+        <item>prozt_red</item>
+    </string-array>
+
+    <!--CONFIG NAME: Actual config name to be displayed in arcus-->
+    <!--String name format: [config_name]_name-->
+    <string name="prozt_pink_name">Pink Blend</string>
+    <string name="prozt_amber_name">Amber Love</string>
+    <string name="prozt_orange_name">Orange Life</string>
+    <string name="prozt_red_name">Red Vamp</string>
+</resources>
