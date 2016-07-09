@@ -29,6 +29,8 @@
 
     <!--arcusCompatVersion 2 has the following format for listing your config zips-->
     <!--item tag must include [config_zip_name]:[config_display_name]-->
+    <!--[config_zip_name] : Name of your config zip file without ".zip"-->
+    <!--[config_display_name] : Actual config name to be displayed in Arcus-->
     <!--Note: Arcus will display your configs in the same order as this array-->
     <string-array name="config_zips_list_compat2"> <!--DO NOT MODIFY THIS LINE!!! The array name is the identifier for Arcus to register the configs-->
         <item>prozt_amber:Amber Love</item>
@@ -36,24 +38,4 @@
         <item>prozt_pink:Pink Blend</item>
         <item>prozt_red:Red Vamp</item>
     </string-array>
-
-<!--____________________________________________________________________________________________________________________-->
-    <!--WARNING: Add/Maintain below sections to maintain compatibility with pre-2.0 versions of Arcus-->
-    <!--This is to prevent force closes when the theme has been updated to support latest version of Arcus but user hasn't updated Arcus yet-->
-
-    <!--Zip IDs: Enlist the names of your zip files without ".zip", these are your [config_name]s-->
-    <!--Note: Arcus will display your configs in the same order as this array-->
-    <string-array name="config_zips_list">  <!--DO NOT MODIFY THIS LINE!!! The array name is the identifier for Arcus to register the configs-->
-        <item>prozt_pink</item>
-        <item>prozt_amber</item>
-        <item>prozt_orange</item>
-        <item>prozt_red</item>
-    </string-array>
-
-    <!--CONFIG NAME: Actual config name to be displayed in arcus-->
-    <!--String name format: [config_name]_name-->
-    <string name="prozt_pink_name">Pink Blend</string>
-    <string name="prozt_amber_name">Amber Love</string>
-    <string name="prozt_orange_name">Orange Life</string>
-    <string name="prozt_red_name">Red Vamp</string>
 </resources>
