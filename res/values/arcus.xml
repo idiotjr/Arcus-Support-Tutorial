@@ -38,4 +38,7 @@
         <item>prozt_pink:Pink Blend</item>
         <item>prozt_red:Red Vamp</item>
     </string-array>
+
+    <!--Optional: Add this boolean value 'ONLY' if your theme is DU Certified (https://goo.gl/fkIcsY)-->
+    <bool name="du_certified">true</bool>
 </resources>
