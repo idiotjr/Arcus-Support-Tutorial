@@ -40,5 +40,6 @@
     </string-array>
 
     <!--Optional: Add this boolean value 'ONLY' if your theme is DU Certified (https://goo.gl/fkIcsY)-->
+    <!--WARNING: Your theme will be BANNED from Arcus if you are found to misuse this value-->
     <bool name="du_certified">true</bool>
 </resources>
