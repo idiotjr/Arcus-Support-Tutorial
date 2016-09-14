@@ -42,4 +42,9 @@
     <!--Optional: Add this boolean value 'ONLY' if your theme is DU Certified (https://goo.gl/fkIcsY)-->
     <!--WARNING: Your theme will be BANNED from Arcus if you are found to misuse this value-->
     <bool name="du_certified">true</bool>
+
+    <!--Optional: This option is useful only for themes with long names-->
+    <!--This is the prefix that will be added to the variant theme's name that is visible in Themes (ThemeChooser) app-->
+    <!--Eg. For variant 'prozt_amber' the theme name visible in theme chooser will be 'Pzt - Amber Love'-->
+    <string name="variant_theme_name_prefix">Pzt</string>
 </resources>
